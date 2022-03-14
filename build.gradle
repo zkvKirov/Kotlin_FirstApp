@@ -1,5 +1,6 @@
+//file:noinspection DifferentStdlibGradleVersion
 plugins {
-    id 'org.jetbrains.kotlin.jvm' version '1.5.10'
+    id 'org.jetbrains.kotlin.jvm' version '1.6.20-RC'
 }
 
 group 'ru.netology'
@@ -10,5 +11,5 @@ repositories {
 }
 
 dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-stdlib"
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib:1.6.20-RC'
 }
